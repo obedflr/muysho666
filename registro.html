@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Muysho</title>
+    <link rel="icon" href="muysho-favicon-black.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="muysho-logo-black.png" alt="logo">
+        </div>
+        <nav>
+            <a href="inicio.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="quienessomos.html">Quiénes somos</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="registro.html">Registro</a>
+        </nav>
+    </header>
+    <main>
+        <h2>FORMULARIO DE REGISTRO</h2>
+        <form action="#" method="post">
+            <h3>Datos de acceso</h3>
+                <label for="username">Nombre de usuario</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Contraseña</label>
+                <input type="text" name="password" id="password" required>
+            <h3>Información personal</h3>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" name="apellido" required>
+                <br>
+                <label for="fecha nacimiento">Fecha de nacimiento</label>
+                <input type="date" id="fecha nacimiento" name="fecha nacimiento" required>
+                <br>
+                <label for="direccion">Dirección</label>
+                <input type="text" name="direccion" id="direccion" required>
+                <br>
+                <label for="telefono">Número de teléfono</label>
+                <input type="tel" name="telefono" id="telefono" required>
+                <br>
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+            <h3>Información relacionada</h3>
+                <label for="intereses">Intereses</label>
+                <select name="intereses" id="intereses" multiple>
+                <option value="vestidos">Vestidos</option>
+                <option value="sandalias">Sandalias</option>
+                <option value="trajes">Trajes</option>
+                <option value="zapatos">Zapatos</option>
+                </select>
+                <br>
+                <label for="como conociste el sitio web">¿Cómo conociste el sitio web?</label>
+                <input type="text" id="como conociste el sitio web" name="como conociste el sitio web">
+                <br>
+                <label for="publi">¿Le gustaría recibir publicidad y ofertas?</label>
+                <input type="checkbox" name="publi" id="publi">
+                <br>
+                <button type="submit">REGISTRARSE</button>
+        </form>
+    </main>
+    <footer>
+        <p>2024 MUYSHO</p>
+        <p>Dirección: Calle Maestro Nicolás, nº5, 24005, León</p>
+        <p>Teléfono: +34 666777888</p>
+        <p>Correo: muysho.store@gmail.com</p>
+        <a href="Términos y condiciones del servicio">Términos y condiciones del servicio</a>
+        <a href="Políticas de privacidad">Políticas de privacidad</a>
+        <a href="Políticas de devoluciones y cambios">Políticas de devoluciones y cambios</a>
+        <a href="Atención al cliente">Atención al cliente</a>
+    </footer>
+</body>
+</html>

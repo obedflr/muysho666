@@ -1,0 +1,92 @@
+header {
+    display: flex;
+    height: 100px;
+    background-color: burlywood;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 50px;
+}
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover { /* cambia el color de <a> cuando pasamos el mouse por encima*/
+    color: white;
+}
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+img {
+    display: block;
+}
+footer {
+    background-color: burlywood;
+    padding: 5px;
+    text-align: center;
+    padding: 5px;
+    display: fixed;
+}
+.items {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.item {
+    text-align: center;
+    max-width: 200px;
+}
+.item img {
+    width: 100%;
+    height: auto;
+}
+h1, p {
+    text-align: center;
+}
+h2, h3 {
+    display: block;
+    text-align: center;
+}
+.map-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: black;
+}
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 2px solid black;
+}
+table img {
+    width: 100%;
+    height: auto;
+}
+#fabricacion {
+    width: 30%;
+    height: auto;
+    margin: 0px auto;
+}
+form {
+    text-align: center;
+    line-height: 40px;
+}
